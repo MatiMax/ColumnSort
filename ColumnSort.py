@@ -16,7 +16,7 @@ class ColumnSortCommand(sublime_plugin.TextCommand):
 	def run(self, edit, rows_cols, col_num):
 		# Sort the array of arrays with columns using a lambda function (see the Python Sort How-to)
 		rows_cols.sort(key=lambda col:col[col_num])
-		# Produce the text for replacement by using a generator and according join function calls. Mind the trailling new-line character.
+		# Produce the text for replacement by using a generator and according join function calls. Mind the trailing new-line character
 		sorded = "\n".join(["\t".join(row) for row in rows_cols]) + "\n"
 		# Now replace the selected text
 		self.view.replace(edit, self.view.sel()[0], sorded)
