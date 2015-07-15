@@ -1,5 +1,5 @@
 # ColumnSort
-ColumnSort is a plugin package for Sublime which provides a simple means of sorting tab-separated text by column.
+ColumnSort is a plugin package for Sublime Text version 3 which provides a simple means of sorting tab-separated text by column.
 ## Limitations
 * ColumnSort currently only works with tabular text which has its columns separated with a tab character ('\t' or '\x09').
 * Currently only ascending sorting is available.
