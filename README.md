@@ -17,7 +17,7 @@ ColumnSort is a plugin package for Sublime Text version 3 which provides a simpl
 ## Settings
 The settings file currently has the following options to tinkle with:
 
-### <kbd>columnsort\_field\_separator</kbd> (default: <kbd>"auto"</kbd>)
+### columnsort\_field\_separator (default: <kbd>"auto"</kbd>)
 
 Field separation character, or "auto" if ColumnSort should try to detect columns separated by
 one of the following characters:
@@ -38,7 +38,7 @@ NOTE 2: Currently "string escaping" using single or double quotes is not support
         method used. It is therefore highly recommended to stick with tab-separation for a hasslefree
         and reliable operation.
 
-### <kbd>columnsort\_skip\_header</kbd> (default: <kbd>true</kbd>)
+### columnsort\_skip\_header (default: <kbd>true</kbd>)
 ColumnSort cannot predict if the selected text contains a header line or not. Set this property to
 either true or false to indicate if you want to force a default.
 
@@ -46,5 +46,5 @@ If the property is set to true the first row of the selection will be only used 
 display purposes and left alone during sorting which will then begin with the second line of the
 selection.
 
-### <kbd>columnsort\_sort\_direction</kbd> (default: <kbd>"ascending"</kbd>)
+### columnsort\_sort\_direction (default: <kbd>"ascending"</kbd>)
 The sorting can be defined to be <kbd>"ascending"</kbd> or <kbd>"descending"</kbd> by default.
