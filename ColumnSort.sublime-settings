@@ -1,0 +1,36 @@
+{
+	/*
+	Field separation character, or "auto" if ColumnSort should try to detect columns separated by
+	one of the following characters:
+		● Tabulator (\t)
+		● Comma (,)
+		● Semicolon (;)
+		● Colon (:)
+		● Vertical Bar (|)
+		● Forward Slash (/)
+		● Hash (#)
+
+	NOTE 1: The order of the field separation characters listed here is also defining their priority in
+	        which they will be detected and processed. As a consequence, a file which contains more than
+	        one field separation character will be split into columns by the first occurrence of those
+	        characters in top to bottom order.
+	NOTE 2: Currently "string escaping" using single or double quotes is not supported by the splitting
+	        method used. It is therefore highly recommended to stick with tab-separation for a hasslefree
+	        and reliable operation.
+	*/
+	"columnsort_field_separator": "auto",
+	
+	/*
+	ColumnSort cannot predict if the selected text contains a header line or not. Set this property to
+	either true or false to indicate if you want to force a default.
+	If the property is set to true the first row of the selection will be only used for	column heading
+	display purposes and left alone during sorting which will then begin with the second line of the
+	selection.
+	*/
+	"columnsort_skip_header": true,
+
+	/*
+	The sorting can be defined to be "ascending" or "descending" by default.
+	*/
+	"columnsort_sort_direction": "ascending"
+}

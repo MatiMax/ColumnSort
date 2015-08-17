@@ -21,6 +21,8 @@
                         "caption": "ColumnSort",
                         "children":
                         [
+                            { "command": "open_file", "args": { "file": "${packages}/ColumnSort/ColumnSort.sublime-settings",                               }, "caption": "Settings – Default"      },
+                            { "command": "open_file", "args": { "file": "${packages}/User/ColumnSort.sublime-settings",                                     }, "caption": "Settings – User"         },
                             { "command": "open_file", "args": { "file": "${packages}/ColumnSort/Default (Windows).sublime-keymap",  "platform": "Windows"   }, "caption": "Key Bindings – Default"  },
                             { "command": "open_file", "args": { "file": "${packages}/ColumnSort/Default (OSX).sublime-keymap",      "platform": "OSX"       }, "caption": "Key Bindings – Default"  },
                             { "command": "open_file", "args": { "file": "${packages}/ColumnSort/Default (Linux).sublime-keymap",    "platform": "Linux"     }, "caption": "Key Bindings – Default"  },

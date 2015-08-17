@@ -1,5 +1,12 @@
 [
     {
+        "caption": "Preferences: ColumnSort – Default",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/ColumnSort/ColumnSort.sublime-settings",
+        }
+    },
+    {
         "caption": "Preferences: ColumnSort Key Bindings – Default",
         "command": "open_file",
         "args": {
@@ -21,6 +28,13 @@
         "args": {
             "file": "${packages}/ColumnSort/Default (Linux).sublime-keymap",
             "platform": "Linux"
+        }
+    },
+    {
+        "caption": "Preferences: ColumnSort – User",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/ColumnSort.sublime-settings",
         }
     },
     {
