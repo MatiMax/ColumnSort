@@ -26,9 +26,9 @@ description: >-
 
 The settings file currently has the following options to tinkle with:
 
-### columnsort\_field\_separator \(default: “auto“\)
+### columnsort\_field\_separator \(default: `"auto"`\)
 
-Field separation character, or „auto“ if ColumnSort should try to detect columns separated by one of the following characters:
+Field separation character, or `"auto"` if ColumnSort should try to detect columns separated by one of the following characters:
 
 * Tabulator \(\t\)
 * Comma \(,\)
@@ -42,13 +42,13 @@ NOTE 1: The order of the field separation characters listed here is also definin
 
 NOTE 2: Currently „string escaping“ using single or double quotes is not supported by the splitting method used. It is therefore highly recommended to stick with tab-separation for a hasslefree and reliable operation.
 
-### columnsort\_skip\_header \(default: true\)
+### columnsort\_skip\_header \(default: `true`\)
 
-ColumnSort cannot predict if the selected text contains a header line or not. Set this property to either true or false to indicate if you want to force a default.
+ColumnSort cannot predict if the selected text contains a header line or not. Set this property to either `true` or `false` to indicate if you want to force a default.
 
-If the property is set to true the first row of the selection will be only used for column heading display purposes and left alone during sorting which will then begin with the second line of the selection.
+If the property is set to `true` the first row of the selection will be only used for column heading display purposes and left alone during sorting which will then begin with the second line of the selection.
 
-### columnsort\_sort\_direction \(default: “ascending“\)
+### columnsort\_sort\_direction \(default: `"ascending"`\)
 
-The sorting can be defined to be “ascending“ or “descending“ by default.
+The sorting can be defined to be `"ascending"` or `"descending"` by default.
 
